@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# if not sudo user
+if [ "$(id -u)" != "0" ]; then
+        # run command and args as sudo
+        exec sudo "$0" "$@"
+fi
+
+ln -s ~/code/dotfiles/scripts/hddslleep /usr/bin/hddsleep
+ln -s ~/code/dotfiles/scripts/hibernate /usr/bin/hibernate
+
+
