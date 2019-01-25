@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+
+[[ -f ~/.zshrc ]] && rm ~/.zshrc
+ln -s ~/code/dotfiles/.zshrc ~/.zshrc
