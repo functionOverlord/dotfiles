@@ -93,12 +93,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#alias notes="cd ~/Documents/notes"
-#alias drive="~/go/bin/drive"
-export PATH=$PATH:/usr/local/go/bin
-
 if [ -f ./.bash_aliases ]; then
     source ~/code/dotfiles/.bash_aliases 
 fi
 
-
+#for python
+export PATH=$HOME/.local/bin:$PATH

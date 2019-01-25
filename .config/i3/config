@@ -154,3 +154,10 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+
+#touchpad: tap and natural scrolling
+exec xinput set-prop 13 295 1
+exec xinput set-prop 13 293 1
+
+
