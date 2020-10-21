@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-alias notes="cd ~/Documents/notes"
+
+alias python=python3
+alias pip=pip3
+alias fs='explorer.exe .'
