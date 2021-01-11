@@ -1,0 +1,147 @@
+aptitude - terminal-based package manager
+base-files - Debian base system miscellaneous files
+base-passwd - Debian base system master password and group files
+bash - GNU Bourne Again SHell
+build-essential - Informational list of build-essential packages
+clang - C, C++ and Objective-C compiler (LLVM based)
+cloud-init - initialization and customization tool for cloud instances
+cmake - cross-platform, open-source make system
+cuda-toolkit-11-0 - CUDA Toolkit 11.0 meta-package
+curl - command line tool for transferring data with URL syntax
+dash - POSIX-compliant shell
+dbus-x11 - simple interprocess messaging system (X11 deps)
+default-jdk - Standard Java or Java compatible Development Kit
+diffutils - File comparison utilities
+docker - transitional package
+dos2unix - convert text file line endings between CRLF and LF
+eatmydata - Library and utilities designed to disable fsync and friends
+fdisk - collection of partitioning utilities
+ffmpeg - Tools for transcoding, streaming and playing of multimedia files
+findutils - utilities for finding files--find, xargs
+fontconfig-config - generic font configuration library - configuration
+fonts-dejavu-core - Vera font family derivate with additional characters
+fonts-powerline - prompt and statusline utility (symbols font)
+gcc - GNU C compiler
+gdb - GNU Debugger
+ghc - The Glasgow Haskell Compilation system
+git - fast, scalable, distributed revision control system
+grep - GNU grep, egrep and fgrep
+gzip - GNU compression utilities
+haskell-platform - Standard Haskell libraries and tools
+hostname - utility to set/show the host name or domain name
+init - metapackage ensuring an init system is installed
+libasyncns0 - Asynchronous name service query library
+libdebconfclient0 - Debian Configuration Management System (C-implementation library)
+libdrm-amdgpu1 - Userspace interface to amdgpu-specific kernel DRM services -- runtime
+libdrm-intel1 - Userspace interface to intel-specific kernel DRM services -- runtime
+libdrm-nouveau2 - Userspace interface to nouveau-specific kernel DRM services -- runtime
+libdrm-radeon1 - Userspace interface to radeon-specific kernel DRM services -- runtime
+libeatmydata1 - Library and utilities to disable fsync and friends - shared library
+libfdisk1 - fdisk partitioning library
+libflac8 - Free Lossless Audio Codec - runtime C library
+libfontconfig1 - generic font configuration library - runtime
+libfontenc1 - X11 font encoding library
+libghc-zlib-bindings-dev - low-level bindings to zlib
+libghc-zlib-dev - Compression and decompression in the gzip and zlib formats
+libgl1 - Vendor neutral GL dispatch library -- legacy GL support
+libgl1-mesa-dev - transitional dummy package
+libgl1-mesa-dri - free implementation of the OpenGL API -- DRI modules
+libglapi-mesa - free implementation of the GL API -- shared library
+libglfw3 - portable library for OpenGL, window and input (x11 libraries)
+libglfw3-dev - portable library for OpenGL, window and input (development files)
+libglu1-mesa-dev - Mesa OpenGL utility library -- development files
+libglvnd0 - Vendor neutral GL dispatch library
+libglx-mesa0 - free implementation of the OpenGL API -- GLX vendor library
+libglx0 - Vendor neutral GL dispatch library -- GLX support
+libice6 - X11 Inter-Client Exchange library
+libllvm9 - Modular compiler and toolchain technologies, runtime library
+libosmesa6-dev - Mesa Off-screen rendering extension -- development files
+libpciaccess0 - Generic PCI access library for X
+libpulse0 - PulseAudio client libraries
+libpulsedsp - PulseAudio OSS pre-load library
+libsensors-config - lm-sensors configuration files
+libsensors5 - library to read temperature/voltage/fan sensors
+libsm6 - X11 Session Management library
+libsndfile1 - Library for reading/writing audio files
+libsodium23 - Network communication, cryptography and signaturing library
+libtinfo-dev - transitional package for libncurses-dev
+libvorbisenc2 - encoder library for Vorbis General Audio Compression Codec
+libvulkan1 - Vulkan loader library
+libwayland-client0 - wayland compositor infrastructure - client library
+libwrap0 - Wietse Venema's TCP wrappers library
+libx11-xcb1 - Xlib/XCB interface library
+libxaw7 - X11 Athena Widget library
+libxcb-dri2-0 - X C Binding, dri2 extension
+libxcb-dri3-0 - X C Binding, dri3 extension
+libxcb-glx0 - X C Binding, glx extension
+libxcb-present0 - X C Binding, present extension
+libxcb-randr0 - X C Binding, randr extension
+libxcb-shape0 - X C Binding, shape extension
+libxcb-sync1 - X C Binding, sync extension
+libxcomposite1 - X11 Composite extension library
+libxdamage1 - X11 damaged region extension library
+libxfixes3 - X11 miscellaneous 'fixes' extension library
+libxft2 - FreeType-based font drawing library for X
+libxi6 - X11 Input extension library
+libxinerama1 - X11 Xinerama extension library
+libxkbfile1 - X11 keyboard file manipulation library
+libxmu6 - X11 miscellaneous utility library
+libxpm4 - X11 pixmap library
+libxrandr2 - X11 RandR extension library
+libxrender1 - X Rendering Extension client library
+libxshmfence1 - X shared memory fences - shared library
+libxt6 - X11 toolkit intrinsics library
+libxtst6 - X11 Testing -- Record extension library
+libxv1 - X11 Video extension library
+libxxf86dga1 - X11 Direct Graphics Access extension library
+libxxf86vm1 - X11 XFree86 video mode extension library
+mesa-vulkan-drivers - Mesa Vulkan graphics drivers
+ncurses-base - basic terminal type definitions
+ncurses-bin - terminal-related programs and man pages
+ncurses-term - additional terminal type definitions
+nodejs - Node.js event-based server-side javascript engine
+openssh-server - secure shell (SSH) server, for secure access from remote machines
+openssh-sftp-server - secure shell (SSH) sftp server module, for SFTP access from remote machines
+patchelf - modify properties of ELF executables
+pulseaudio-utils - Command line tools for the PulseAudio sound server
+python3-distutils - distutils package for Python 3.x
+python3-importlib-metadata - library to access the metadata for a Python package - Python 3.x
+python3-jedi - autocompletion tool for Python 3
+python3-jinja2 - small but fast and easy to use stand-alone template engine
+python3-json-pointer - resolve JSON pointers - Python 3.x
+python3-jsonpatch - library to apply JSON patches - Python 3.x
+python3-jsonschema - An(other) implementation of JSON Schema (Draft 3 and 4) - Python 3.x
+python3-lib2to3 - Interactive high-level object-oriented language (lib2to3)
+python3-markupsafe - HTML/XHTML/XML string library for Python 3
+python3-more-itertools - library with routines for operating on iterables, beyond itertools (Python 3)
+python3-nacl - Python bindings to libsodium (Python 3)
+python3-pip - Python package installer
+python3-pymacaroons - Macaroon library for Python 3
+python3-pyrsistent - persistent/functional/immutable data structures for Python
+python3-serial - pyserial - module encapsulating access for the serial port
+python3-setuptools - Python3 Distutils Enhancements
+python3-zipp - pathlib-compatible Zipfile object wrapper - Python 3.x
+show-motd - show message of the day in interactive shells
+snap - location of genes from DNA sequence with hidden markov model
+snapd - Daemon and tooling that enable snap packages
+ssh-import-id - securely retrieve an SSH public key and install it locally
+swig - Generate scripting interfaces to C/C++ code
+sysvinit-utils - System-V-like utilities
+tldr - Haskell tldr client
+ubuntu-minimal - Minimal core of Ubuntu
+ubuntu-server - The Ubuntu Server system
+ubuntu-standard - The Ubuntu standard system
+ubuntu-wsl - Ubuntu on Windows tools - Windows Subsystem for Linux integration
+unzip - De-archiver for .zip files
+update-motd - compliments pam_motd in libpam-modules
+valgrind - instrumentation framework for building dynamic analysis tools
+wslu - collection of utilities for the Windows 10 Linux Subsystem
+x11-common - X Window System (X.Org) infrastructure
+x11-utils - X11 utilities
+xvfb - Virtual Framebuffer 'fake' X server
+xz-utils - XZ-format compression utilities
+youtube-dl - downloader of videos from YouTube and other sites
+zip - Archiver for .zip files
+zlib1g - compression library - runtime
+zlib1g-dev - compression library - development
+zsh - shell with lots of features

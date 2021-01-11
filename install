@@ -1,5 +1,27 @@
 #!/usr/bin/env bash
 
+sudo apt update && sudo apt upgrade
 
-[[ -f ~/.zshrc ]] && rm ~/.zshrc
-ln -s ~/code/dotfiles/.zshrc ~/.zshrc
+# system packages
+sudo apt install -y \
+    curl \
+    default-jdk \
+	dos2unix \
+    git \
+	gzip \
+    python3-pip \
+    python3-setuptools \
+    tldr \
+    youtube-dl \
+    zsh
+
+
+pip3 install -r python_packages
+
+
+# oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cat zshrc_additions >> ~/.zshrc
+
+# [[ -f ~/.zshrc ]] && rm ~/.zshrc
+# ln -s ~/code/dotfiles/.zshrc ~/.zshrc
