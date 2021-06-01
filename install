@@ -16,7 +16,12 @@ sudo apt install -y \
     zsh
 
 
+# python packages
 pip3 install -r python_packages
+
+# google colab
+pip3 install jupyter-http-over-ws
+jupyter serverextension enable --py jupyter_http_over_ws
 
 
 # oh my zsh

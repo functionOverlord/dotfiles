@@ -1,6 +1,10 @@
 
 
-if [ -f ./.bash_aliases ]; then
+# move to wsl home
+cd ~
+
+
+if [ -f ~/code/dotfiles/.bash_aliases ]; then
     source ~/code/dotfiles/.bash_aliases 
 fi
 
